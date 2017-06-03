@@ -1,0 +1,27 @@
+{
+  "name": "csrng",
+  "version": "0.1.1",
+  "description": "(C)riptographically (S)ecure (R)andom (N)umber (G)enerator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ --requiere babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasKlenert/csrng.git"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "generator"
+  ],
+  "author": "Nicolas Klenert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasKlenert/csrng/issues"
+  },
+  "homepage": "https://github.com/NicolasKlenert/csrng#readme",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
