@@ -4,13 +4,13 @@
 ## Installation
 
 ```shell
-  npm install csnrg --save
+  npm install csrng --save
 ```
 
 ## Usage
 
 ```js
-  var gen = require('csnrg');
+  var gen = require('csrng');
 
   //output a number (as string) with base 16 and a length of 10
   gen.setOutputSettings(16,10);
